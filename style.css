@@ -147,6 +147,8 @@ nav ul li a{
 .bg-intro{
     /* height: 920px; */
     background-image: url(images/background-img.png);
+    background-size: cover;
+    background-position: center;
 }
 .introduction{
     padding: 160px 0 160px 0;
@@ -216,9 +218,18 @@ padding: 36px 0 32px 0;
     margin: 96px 0;
     border-radius: 40px;
 }
+.contactMe .socialBtn li{
+    width:162px;
+}
+.contactMe .socialBtn li a{
+    display: flex;
+} 
 .contactMe .socialBtn li:hover{
-    opacity: 0.5;
-    transition-duration:0.5s;
+    width: 162px;
+    border-radius: 25%;
+    box-shadow: 0px 0px 16px 3px #9094FFE5;
+
+ 
 }
 .project{
     padding-top: 160px;
